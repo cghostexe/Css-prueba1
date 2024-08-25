@@ -1,0 +1,59 @@
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; /* Alineación a la izquierda */
+}
+
+.verde {
+    width: 300px;
+    height: 80vh; /* Aumentamos la altura */
+    background-color: #008000; /* Verde */
+    padding: 20px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.blanco {
+    width: 80%;
+    height: 80%; /* Mantendremos la altura relativa */
+    background-color: #FFFFFF; /* Blanco */
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.dorado {
+    width: 80%;
+    height: 80%; /* Mantendremos la altura relativa */
+    background-color: #FFD700; /* Dorado */
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #0000FF; /* Azul */
+    margin: 0;
+    position: absolute;
+    top: 10px; /* Espacio superior para centrar en la parte superior */
+    left: 50%;
+    transform: translateX(-50%); /* Centrado horizontalmente */
+}
+
+.contenedor-pequeno {
+    width: 200px;
+    background-color: #90EE90; /* Verde claro */
+    padding: 15px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrando horizontalmente */
+    text-align: center;
+}
